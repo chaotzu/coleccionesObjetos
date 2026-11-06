@@ -5,7 +5,7 @@
 
 Apuntes de clase y ejemplos ejecutables sobre **arreglos, listas, pilas, colas y diccionarios** en C#.
 
--  **Apuntes:** [Wiki del repositorio]((https://github.com/chaotzu/coleccionesObjetos/wiki))
+-  **Apuntes:** [Wiki del repositorio] (https://github.com/chaotzu/coleccionesObjetos/wiki)
 -  **Código:** carpeta [`Ejemplos/`](Ejemplos)
 -  **Fuente del wiki:** carpeta [`wiki/`](wiki) (ver [PUBLICAR-WIKI.md](PUBLICAR-WIKI.md))
 
