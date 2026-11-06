@@ -1,0 +1,1 @@
+<sub>📚 Apuntes de **Colecciones en C#** · Hechos con ☕ para la clase · Código en [`/Ejemplos`](https://github.com/chaotzu/colecciones-csharp/tree/main/Ejemplos) · Bibliografía en [Referencias](Referencias)</sub>

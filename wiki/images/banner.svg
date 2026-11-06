@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Colecciones en C#">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#512BD4"/>
+      <stop offset="1" stop-color="#1F7AE0"/>
+    </linearGradient>
+    <linearGradient id="brillo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#fondo)"/>
+  <rect width="1200" height="160" rx="24" fill="url(#brillo)"/>
+
+  <!-- Arreglo: celdas contiguas -->
+  <g transform="translate(70,200)" font-family="Consolas, Menlo, monospace" font-size="22" text-anchor="middle">
+    <rect x="0"   width="64" height="64" rx="8" fill="#fff" fill-opacity="0.95"/><text x="32"  y="41" fill="#512BD4">10</text>
+    <rect x="70"  width="64" height="64" rx="8" fill="#fff" fill-opacity="0.95"/><text x="102" y="41" fill="#512BD4">20</text>
+    <rect x="140" width="64" height="64" rx="8" fill="#fff" fill-opacity="0.95"/><text x="172" y="41" fill="#512BD4">30</text>
+    <rect x="210" width="64" height="64" rx="8" fill="#fff" fill-opacity="0.95"/><text x="242" y="41" fill="#512BD4">40</text>
+    <text x="32"  y="90" fill="#fff" fill-opacity="0.8" font-size="15">[0]</text>
+    <text x="102" y="90" fill="#fff" fill-opacity="0.8" font-size="15">[1]</text>
+    <text x="172" y="90" fill="#fff" fill-opacity="0.8" font-size="15">[2]</text>
+    <text x="242" y="90" fill="#fff" fill-opacity="0.8" font-size="15">[3]</text>
+  </g>
+
+  <!-- Pila -->
+  <g transform="translate(440,160)" font-family="Consolas, Menlo, monospace" font-size="18" text-anchor="middle">
+    <rect y="0"  width="110" height="34" rx="6" fill="#fff" fill-opacity="0.95"/><text x="55" y="23" fill="#1F7AE0">push ↓</text>
+    <rect y="40" width="110" height="34" rx="6" fill="#fff" fill-opacity="0.75"/>
+    <rect y="80" width="110" height="34" rx="6" fill="#fff" fill-opacity="0.55"/>
+  </g>
+
+  <!-- Cola -->
+  <g transform="translate(620,205)" font-family="Consolas, Menlo, monospace" font-size="18" text-anchor="middle">
+    <rect x="0"   width="46" height="54" rx="6" fill="#fff" fill-opacity="0.55"/>
+    <rect x="52"  width="46" height="54" rx="6" fill="#fff" fill-opacity="0.75"/>
+    <rect x="104" width="46" height="54" rx="6" fill="#fff" fill-opacity="0.95"/>
+    <text x="75" y="85" fill="#fff" fill-opacity="0.85" font-size="15">enqueue → … → dequeue</text>
+  </g>
+
+  <!-- Diccionario -->
+  <g transform="translate(850,175)" font-family="Consolas, Menlo, monospace" font-size="18">
+    <rect width="260" height="34" rx="6" fill="#fff" fill-opacity="0.95"/><text x="12" y="23" fill="#512BD4">"MX"  →  "México"</text>
+    <rect y="42" width="260" height="34" rx="6" fill="#fff" fill-opacity="0.85"/><text x="12" y="65" fill="#512BD4">"CL"  →  "Chile"</text>
+    <rect y="84" width="260" height="34" rx="6" fill="#fff" fill-opacity="0.75"/><text x="12" y="107" fill="#512BD4">"PE"  →  "Perú"</text>
+  </g>
+
+  <text x="70" y="95" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#fff">Colecciones en C#</text>
+  <text x="72" y="135" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#fff" fill-opacity="0.9">Arreglos · Listas · Pilas · Colas · Diccionarios</text>
+</svg>
